@@ -5,6 +5,10 @@ It is a static UI exercise (no state and no backend) focused on layout and the c
 
 Practice project from the Route Mobile Diploma, Task One.
 
+<p align="center">
+  <img src="screenshots/chat_screen.png" width="300" alt="WhatsApp chat screen replica running on an Android phone">
+</p>
+
 ## What is on the screen
 
 | Area | What it contains |

@@ -11,6 +11,7 @@ Small Flutter apps I built while learning the framework in the **Flutter & Dart 
 | [`facebook_app`](facebook_app/) | Facebook app with splash, login with validation, and a tabbed home feed | `TabBar`, `Form` validation, `ListView.builder`, navigation, reusable widgets |
 | [`contacts_app`](contacts_app/) | Contacts manager with a bottom sheet form, live preview, photo picker and a grid | `showModalBottomSheet`, `GridView.builder`, `TextEditingController`, `image_picker`, Lottie |
 | [`space_app`](space_app/) | Solar system explorer with swipeable planets and 3D models | Named routes, `PageView`, `PageController`, data-driven UI, 3D viewer package |
+| [`islami_app`](islami_app/) | Islamic app with a 5-slide onboarding and a tap-to-count sebha | `PageView`, `AnimatedRotation`, `LayoutBuilder`, page indicator package |
 
 More projects will be added here as the course goes on.
 

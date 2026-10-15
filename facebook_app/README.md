@@ -6,6 +6,10 @@ a splash screen, a login screen with form validation, and a home screen with a t
 Practice project from the Route Mobile Diploma, Task Two. It is a UI exercise: there is no backend,
 and the feed is built from local sample data.
 
+<p align="center">
+  <img src="screenshots/home_screen.jpg" width="300" alt="Facebook home screen replica running on an Android phone">
+</p>
+
 ## Screens
 
 | Screen | What it does |
@@ -52,7 +56,8 @@ facebook_app/
 │   ├── models/        # Story and Post models with sample data
 │   ├── screens/       # splash, login, home
 │   └── widgets/       # buttons, text field, logos, app bar, story and post widgets
-├── assets/images/     # photos used by the feed (not included, see below)
+├── assets/images/     # photos used by the feed (see "Images" below)
+├── screenshots/       # app screenshot used in this README
 ├── pubspec.yaml
 └── NOTES.ar.md        # my study notes (Arabic)
 ```
@@ -75,8 +80,9 @@ Requires Flutter with Dart 3.0 or newer.
 
 ### Images
 
-The photos and logos come from the course's Figma file, so they are **not included** in this repository.
-The code expects these files in `assets/images/`:
+The photos in `assets/images/` come from the course's Figma file and are included here only so the
+project runs as a learning exercise. They belong to their respective owners (Route Academy and the
+original photographers and artists), and are not covered by any license for this repository.
 
 | File | Used for |
 |------|----------|
@@ -84,7 +90,7 @@ The code expects these files in `assets/images/`:
 | `story1.jpg` to `story5.jpg` | story cards |
 | `post1.jpg` to `post3.jpg` | feed posts |
 
-Until you add images with those names, the image widgets cannot load them. Any JPEG works.
+To use your own pictures, replace these files with images of the same names.
 
 The Facebook and Meta logos are drawn in code, so they need no files.
 

@@ -1,0 +1,40 @@
+name: facebook_app
+description: Route Mobile Diploma - Task Two - Facebook App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # The brief asks for a NATIVE splash screen.
+  # Uncomment this, run `flutter pub get`, then run:
+  #   dart run flutter_native_splash:create
+  # flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+# ---------------------------------------------------------------
+# Native splash configuration (see the brief's Splash Screen page).
+# Needs assets/images/fb_logo.png and assets/images/meta_logo.png
+# exported from figma first.
+# ---------------------------------------------------------------
+# flutter_native_splash:
+#   color: "#FFFFFF"
+#   image: assets/images/fb_logo.png
+#   branding: assets/images/meta_logo.png
+#   android_12:
+#     color: "#FFFFFF"
+#     image: assets/images/fb_logo.png

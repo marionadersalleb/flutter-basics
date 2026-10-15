@@ -9,15 +9,16 @@ Small Flutter apps I built while learning the framework in the **Flutter & Dart 
 |---------|------------|------------|
 | [`whatsapp_ui`](whatsapp_ui/) | WhatsApp chat screen in dark mode, replicated from Figma | Layout widgets, `Stack`, `BoxDecoration`, `TextFormField` |
 | [`facebook_app`](facebook_app/) | Facebook app with splash, login with validation, and a tabbed home feed | `TabBar`, `Form` validation, `ListView.builder`, navigation, reusable widgets |
+| [`space_app`](space_app/) | Solar system explorer with swipeable planets and 3D models | Named routes, `PageView`, `PageController`, data-driven UI, 3D viewer package |
 
 More projects will be added here as the course goes on.
 
 ## Running a project
 
-Install [Flutter](https://docs.flutter.dev/get-started/install), then pick a project folder (`whatsapp_ui` or `facebook_app`):
+Install [Flutter](https://docs.flutter.dev/get-started/install), then pick a project folder (`whatsapp_ui`, `facebook_app` or `space_app`):
 
 ```bash
-cd facebook_app
+cd space_app
 flutter create .   # generates the platform folders
 flutter pub get
 flutter run
